@@ -1,0 +1,133 @@
+@media  screen and (max-width: 749px) {
+	.title {
+		margin: 20px;
+	}
+}
+
+@media screen and (min-width: 750px) {
+	.header {
+		justify-content: flex-start;
+		flex-wrap: nowrap;
+	}
+
+	.header_portrait {
+		padding: 20px;
+	}
+
+	.titles {
+		padding-right: 30px;
+		align-items: center;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.title, .subtitle {
+		justify-content: flex-end;
+		width: 100%;
+	}
+
+	.title {
+		font-size: 35px;
+	}
+
+	.subtitle {
+		font-size: 27px;
+	}
+
+	.courses_title {
+		font-size: 27px;
+		padding: 20px;
+	}
+
+	h4 {
+		font-size: 25px;
+	}
+
+	a {
+		font-size: 21px;
+	}
+
+	p {
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.title {
+		font-size: 43px;
+	}
+
+	.subtitle {
+		font-size: 27px;
+	}
+
+	.courses {
+		display: flex;
+    	flex-wrap: wrap;
+    	justify-content: space-around;
+	}
+
+	.courses_title {
+		font-size: 35px;
+		padding: 27px;
+	}
+
+	.course_item {
+		width: 45%;
+		margin: unset;
+	}
+
+	.course_image {
+		height: 220px;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	.header_portrait{
+		padding: 45px;
+		margin-left: 33px;
+	}
+
+	.title {
+		font-size: 60px;
+	}
+
+	.subtitle {
+		font-size: 35px;
+	}
+
+	.courses_title {
+		font-size: 40px;
+		padding: 40px;
+	}
+
+	.course_item {
+		width: 23%;
+	}
+
+	.description_alt {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.details {
+		display: none;
+	}
+
+	.course_description_alt {
+		width: 23%;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	a {
+		font-size: 19px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,99 @@
+/* General Settings*/
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	width: 100%;
+	font: 16px 'Ubuntu', sans-serif;
+	color: #585858;
+}
+
+h1,h2,h3,h4{
+	font-family: 'Comfortaa', cursive;
+}
+
+h4{
+	color: #0aa99b;
+}
+
+a {
+	color: #007468;
+    font-weight: 700;
+}
+
+/*Header*/
+
+.header {
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F3EADA;
+}
+
+.header_portrait {
+	width: 200px;
+    height: 200px;
+}
+
+.titles{
+	width: 100%;
+}
+
+.title{
+	font: 700 30px 'Comfortaa', cursive;
+    color: #0aa99b;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title, .subtitle{
+	display: flex;
+	justify-content: center;
+}
+
+.subtitle{
+	text-transform: capitalize;
+	font-size: 25px;
+}
+
+/*Main*/
+
+/*Hero*/
+
+.hero_image{
+	width: 100%;
+}
+
+/*Courses*/
+
+.courses_container{
+    margin-top: 25px;
+}
+
+.course_item{
+	width: 80%;
+    margin: auto;
+}
+
+.courses_title{
+	text-transform: capitalize;
+	display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.course_image{
+    border-style: solid;
+    border-color: #0aa99b;
+    border-width: 3px;
+    width: 100%;
+}
+
+.description_alt{
+	display: none;
+}
